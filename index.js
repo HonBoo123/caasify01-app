@@ -17,10 +17,10 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || 'f2780d20-ac2c-4bd9-afee-5511e07d8b9c';
+const UUID = process.env.UUID || '40b1ea11-657d-4810-992a-466bd6337072';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
-const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
+const DOMAIN = process.env.DOMAIN || 'honboo.blitz.cloud';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
 const SUB_PATH = process.env.SUB_PATH || 'music';           
 const NAME = process.env.NAME || 'music';                       
